@@ -2,6 +2,7 @@ import React from 'react'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import ReactDom from 'react-dom/client'
 
 function MyApp(){
   return (
@@ -33,6 +34,7 @@ const reactElement = React.createElement(
   anotherUser
 )
 
-createRoot(document.getElementById('root')).render(
+ReactDom.createRoot(document.getElementById('root')).render(
   reactElement
+  // <App />
 )

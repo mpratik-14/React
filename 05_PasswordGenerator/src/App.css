@@ -1,0 +1,134 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    font-family: Arial, sans-serif; /* Set the font family for readability */
+  }
+  
+  .password-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .password-input {
+    padding: 15px;
+    font-size: 24px;
+    margin-right: 15px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+  }
+  
+  .copy-button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .setLength {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .slider-checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between slider, length label, and checkboxes */
+    margin-bottom: 20px;
+  }
+  
+  .length-slider {
+    width: 300px;
+    height: 10px;
+  }
+  
+  .length-label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .checkbox-label {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .generate-button {
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .generate-button:hover {
+    background-color: #218838;
+  }
+  
+  
+  
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
