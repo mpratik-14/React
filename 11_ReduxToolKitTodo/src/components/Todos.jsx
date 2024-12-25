@@ -1,6 +1,8 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { removeToDo } from '../features/todo/todoSlice'
+import { setEditingTodo } from '../features/todo/todoSlice'
+import AddTodo from './AddTodo'
 
 function Todos() {
   const todos = useSelector(state => state.todos)
@@ -9,6 +11,7 @@ function Todos() {
 
   return (
     <>
+    <AddTodo></AddTodo>
       <div>Todos</div>
       <ul className="list-none">
         {todos.map((todo) => (
